@@ -1,4 +1,4 @@
-package com.ikn.tech;
+package com.ikn.ikare;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class UmsDiscoveryServiceApplication {
+public class IkareDiscoveryServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UmsDiscoveryServiceApplication.class, args);
+		SpringApplication.run(IkareDiscoveryServiceApplication.class, args);
 	}
 
 }
